@@ -1,0 +1,7 @@
+# Normalise line endings in the repository; check out per-platform.
+* text=auto
+
+# build.cmd has to stay CRLF to be a valid Windows batch file, whatever the
+# platform it is checked out on.
+*.cmd text eol=crlf
+*.bat text eol=crlf

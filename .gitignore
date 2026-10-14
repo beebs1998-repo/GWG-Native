@@ -1,0 +1,17 @@
+# Build output. Everything here is produced by build.cmd and is not source.
+/bin/
+/build/
+/gwg-native.exe
+*.obj
+*.pdb
+*.ilk
+
+# The launcher's runtime log, which grows without bound while the game runs.
+*.log
+
+# DirectX 8 SDK headers. Not ours to licence, so not redistributed - see
+# deps/README.md. The build explains what to put here if they are missing.
+/deps/dx8/
+
+# Game data lives one directory up and is deliberately not part of this
+# repository - see README.md.
